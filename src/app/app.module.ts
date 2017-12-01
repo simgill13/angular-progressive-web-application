@@ -8,11 +8,15 @@ import {MatButtonModule,MatIconModule,
         MatInputModule,MatSelectModule,
         MatSliderModule,MatToolbarModule,
         MatCardModule,MatSlideToggleModule} from '@angular/material';
-import 'hammerjs';                      
+import 'hammerjs';
+import {ListComponent}                      from './list/list.component';
+import {CoffeeComponent}                    from './coffee/coffee.component';                      
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
+    CoffeeComponent
   ],
   imports: [
     BrowserModule,
