@@ -1,6 +1,14 @@
 class PlaceLocation {
-    address:string;
-    city:string;
-    latitude:number;
-    longtude:number;
+   
+    
+   
+  
+
+
+    constructor(
+        public address:string ="", 
+        public city:string ="", 
+        public latitude:number =null,
+        public longtude:number = null,
+    ){ }
 }
