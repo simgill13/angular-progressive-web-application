@@ -1,14 +1,17 @@
-class Coffee {
-    
+import { TastingRating } from "./TastingRating";
+import { PlaceLocation } from "./PlaceLocation";
 
-    type:string;
-    rating:number;
-    notes:string;
-    tastingRating:TastingRating;
+export class Coffee {
 
-        constructor(
-            public name:string, 
-            public place:string, 
-            public location:PlaceLocation
-        ){ }
+    // Properties
+    type: string;
+    rating: number;
+    notes: string;
+    tastingRating: TastingRating;
+
+    constructor(public name: string, public place: string, 
+                public location: PlaceLocation) {
+
+    }
+
 }
