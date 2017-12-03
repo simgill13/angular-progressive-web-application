@@ -1,9 +1,8 @@
 export class TastingRating {
-    aroma:number;
-    body:number;
-    falvor:number;
-    intensity:number;
-    sweetness:number;
-    aftertaste:number;
-    
+    aroma: number;
+    body: number;
+    flavor: number;
+    intensity: number;
+    sweetness: number;
+    aftertaste: number;
 }
