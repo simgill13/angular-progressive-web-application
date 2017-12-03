@@ -12,6 +12,13 @@ export class DataService {
 
   public endpoint = "http://localhost:3000";
 
+  get(coffeeId: string, callback) {
+    this.http.get(`${this.endpoint}/coffees/${coffeeId}`)
+      .subscribe(response => {
+        callback(response.json());
+      })
+  }
+
   getList(callback) {    
     // const list = [
     //   new Coffee("Double Espresso", "Sunny Cafe", new PlaceLocation("123 Market St", "San Francisco")),
