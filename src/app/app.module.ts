@@ -7,7 +7,8 @@ import {BrowserAnimationsModule}            from '@angular/platform-browser/anim
 import {MatButtonModule,MatIconModule,
         MatInputModule,MatSelectModule,
         MatSliderModule,MatToolbarModule,
-        MatCardModule,MatSlideToggleModule} from '@angular/material';
+        MatCardModule,MatSlideToggleModule,
+        MatSnackBarModule}                  from '@angular/material';
 import 'hammerjs';
 import {ListComponent}                      from './list/list.component';
 import {CoffeeComponent}                    from './coffee/coffee.component';
@@ -39,6 +40,7 @@ const routes : Routes = [
     MatButtonModule,
     MatIconModule,
     MatInputModule,
+    MatSnackBarModule,
     MatSelectModule,
     MatSliderModule,
     MatToolbarModule,
