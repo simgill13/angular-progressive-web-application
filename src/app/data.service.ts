@@ -10,7 +10,8 @@ export class DataService {
 
   constructor(private http: Http) { }
 
-  public endpoint = "http://localhost:3000";
+  public endpoint = "https://radiant-retreat-84264.herokuapp.com";
+ 
 
   get(coffeeId: string, callback) {
     this.http.get(`${this.endpoint}/coffees/${coffeeId}`)

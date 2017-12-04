@@ -3,3 +3,4 @@
 {"name":"White mocha","place":"san jose ","location":{"address":"123 fake drive","city":"san jose","latitude":37.2586473,"longitude":-121.8892968},"tastingRating":{},"type":"Ristretto","rating":4,"_id":"Rvk35ABJRhjkMfGB","notes":"great"}
 {"name":"White mocha","place":"san jose ","location":{"address":"123 fake drive","city":"san jose","latitude":37.258647599999996,"longitude":-121.88931529999998},"tastingRating":{"aroma":2},"type":"Ristretto","rating":4,"_id":"Rvk35ABJRhjkMfGB","notes":"great"}
 {"name":"White mocha","place":"san jose ","location":{"address":"123 fake drive","city":"san jose","latitude":37.258638499999996,"longitude":-121.8893178},"tastingRating":null,"type":"Ristretto","rating":4,"_id":"Rvk35ABJRhjkMfGB","notes":"great"}
+{"name":"N","place":"J","location":{"address":"J","city":"","latitude":null,"longitude":null},"tastingRating":{},"type":"Americano","rating":4,"_id":"JSSvc1PD64pfYBMX"}
